@@ -1,0 +1,18 @@
+*  {
+  text-align-last: center;
+  font-size: 50px;
+  border-radius: 5%;
+  padding: 5PX;
+  margin: 5px;
+}
+.blue {
+  color: #6a5acd;
+}
+
+.black {
+  color: #000000;
+}
+
+.red {
+  color: #fa8072;
+}

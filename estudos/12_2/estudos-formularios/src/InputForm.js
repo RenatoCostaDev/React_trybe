@@ -1,13 +1,13 @@
 import React from 'react';
-// import { Form, FormGroup, Label, Input} from 'reactstrap';
+import { Form, FormGroup, Label, Input} from 'reactstrap';
 
 
-class FormReact extends React.Component {
+class InputForm extends React.Component {
   render() {
     const { value, handleChange } = this.props;
 
     return (
-      <Input name='nome' 
+      <input name='nome' 
       value={value}
       onChange={handleChange}
       />
